@@ -11,7 +11,7 @@
     <title>@yield('title', 'LaraBBS') - Laravel 进阶教程</title>
 
     <!-- Style -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
 </head>
 <body>
