@@ -44,10 +44,18 @@ class UsersTableSeeder extends Seeder
 
         // 单独处理第一个用户的数据
         $user = User::find(1);
+        $user->assignRole('Founder');//设置为站长
         $user->name = 'leoroll';
         $user->email = '1455212235@qq.com';
         $user->avatar = 'http://larabbs.test/uploads/images/avatars/201808/16/1_1534388868_MkSND611fI.jpgw';
         $user->save();
 
+        //处理第二个用户，设置为管理员
+        $user = User::find(2);
+        $user->assignRole('Maintainer');
+        $user->name = 'chuyun';
+        $user->email = 'chuyun@qq.com';
+        $user->avatar = 'http://larabbs.test/uploads/images/avatars/201808/20/2_1534704142_09uh45WQ4y.jpeg';
+        $user->save();
     }
 }
