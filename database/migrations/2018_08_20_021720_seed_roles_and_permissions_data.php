@@ -6,7 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
-use Illuminate\Database\Elequent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 class SeedRolesAndPermissionsData extends Migration
 {
