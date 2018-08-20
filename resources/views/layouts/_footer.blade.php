@@ -7,6 +7,6 @@
             设计和编码
         </p>
 
-        <p class="pull-right"><a href="mailto:name@email.com">联系我</a></p>
+        <p class="pull-right"><a href="mailto:{{setting('contact_email')}}">联系我</a></p>
     </div>
 </footer>
