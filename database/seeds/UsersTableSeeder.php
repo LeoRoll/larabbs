@@ -47,7 +47,7 @@ class UsersTableSeeder extends Seeder
         $user->assignRole('Founder');//设置为站长
         $user->name = 'leoroll';
         $user->email = '1455212235@qq.com';
-        $user->avatar = 'http://larabbs.test/uploads/images/avatars/201808/16/1_1534388868_MkSND611fI.jpgw';
+        $user->avatar = 'http://larabbs.test/uploads/images/avatars/201808/21/1_1534785780_UavXJgB4tQ.jpg';
         $user->save();
 
         //处理第二个用户，设置为管理员
