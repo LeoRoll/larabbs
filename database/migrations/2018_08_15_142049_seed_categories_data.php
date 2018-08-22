@@ -27,7 +27,7 @@ class SeedCategoriesData extends Migration
                 'description' => '请保持友善，互相帮助'
             ],
             [
-                'name' => '分享',
+                'name' => '公告',
                 'description' => '站点公告'
             ],
         ];
